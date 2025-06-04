@@ -5,7 +5,7 @@ const Popup = ({ close, onClose, details }) => {
   return (
     <div className="absolute w-[100%] h-[40%] top-[50%] overflow-hidden">
       <div
-        className={`h-auto w-[40%] flex flex-col fixed top-1/2 left-1/2
+        className={`h-auto w-[80%] md:w-[50%] flex flex-col fixed top-1/2 left-1/2
           -translate-y-1/2 -translate-x-1/2 transform bg-white border-[2px] border-gray-200 p-10 shadow-md text-[16px] rounded-2xl
           transition-transform duration-500 ease-in-out
            ${close ? "-translate-x-1/2" : "-translate-x-[250%]"}`}
