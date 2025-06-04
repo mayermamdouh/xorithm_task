@@ -23,13 +23,13 @@ const Popup = ({ close, onClose, details }) => {
             <div className="flex flex-col gap-5 ">
               <div className="flex flex-row items-center gap-4 mt-10">
                 <div className="text-[17px] font-bold flex-1">Name: </div>
-                <div className="text-[16px] text-green-500 font-bold">
+                <div className="text-[16px] text-gray-500 font-bold">
                   {details.name}
                 </div>
               </div>
               <div className="flex flex-row items-center gap-4">
                 <div className="text-[17px] font-bold flex-1">IP Address: </div>
-                <div className="text-[16px] text-green-500 font-bold">
+                <div className="text-[16px] text-gray-500 font-bold">
                   {details.ip}
                 </div>
               </div>
@@ -37,13 +37,13 @@ const Popup = ({ close, onClose, details }) => {
                 <div className="text-[17px] font-bold flex-1">
                   Response Time:{" "}
                 </div>
-                <div className="text-[16px] text-green-500 font-bold">
+                <div className="text-[16px] text-gray-500 font-bold">
                   {details.responseTime}
                 </div>
               </div>
               <div className="flex flex-row items-center gap-4">
                 <div className="text-[17px] font-bold flex-1">Uptime: </div>
-                <div className="text-[16px] text-green-500 font-bold">
+                <div className="text-[16px] text-gray-500 font-bold">
                   {details.uptime}
                 </div>
               </div>
