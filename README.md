@@ -63,7 +63,7 @@ Server data is manually written inside `data/server.js`, structured like this:
 
 ---
 
-## 🛠️ Getting Started Locally
+## Getting Started Locally
 
 1. Clone the repo:
 
@@ -97,22 +97,12 @@ npm run dev
 
 ---
 
-## 🌍 Deployment
+## Deployment
 
 Project is deployed on **Vercel**:  
 [https://xorithm-task-8ast.vercel.app](https://xorithm-task-8ast.vercel.app)
 
 Make sure to set your environment variables in the Vercel dashboard under **Settings → Environment Variables**.
-
----
-
-## 📸 Screenshots
-
-(You can add UI screenshots here)
-
----
-
----
 
 ## Design Overview
 
